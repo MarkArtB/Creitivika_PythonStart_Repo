@@ -1,0 +1,21 @@
+
+def setup():
+    size(600,600)
+def draw():
+    frameRate(1)
+    background(150)
+    strokeWeight(10)
+    line(0,225,600,225)
+    strokeWeight(1)
+    fill(200,random(0,255),random(0,255))
+    ellipse(75,250,50,50)
+    fill(200,random(0,255),random(0,255))
+    ellipse(175,250,50,50)
+    fill(200,random(0,255),random(0,255))
+    ellipse(275,250,50,50)
+    fill(200,random(0,255),random(0,255))
+    ellipse(375,250,50,50)
+    fill(200,random(0,255),random(0,255))
+    ellipse(475,250,50,50)
+    fill(200,random(0,255),random(0,255))
+    ellipse(575,250,50,50)
